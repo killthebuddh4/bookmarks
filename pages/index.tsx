@@ -11,6 +11,8 @@ const BOOKMARKS: Record<string, Bookmark[]> = {
     { url: "https://wagmi.sh/docs/getting-started", display: "wagmi" },
     { url: "https://reactjs.org/docs/getting-started.html", display: "React" },
     { url: "https://styled-components.com/docs", display: "Styled" },
+    { url: "https://supabase.com/docs", display: "supabase" },
+    { url: "https://www.hammerspoon.org/docs/", display: "hammerspoon" },
   ]
 }
 
