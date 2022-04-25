@@ -13,6 +13,8 @@ const BOOKMARKS: Record<string, Bookmark[]> = {
     { url: "https://styled-components.com/docs", display: "Styled" },
     { url: "https://supabase.com/docs", display: "supabase" },
     { url: "https://www.hammerspoon.org/docs/", display: "hammerspoon" },
+    { url: "https://next-auth.js.org/getting-started/introduction", display: "NextAuth" },
+    { url: "https://vercel.com/docs", display: "Vercel" },
   ]
 }
 
@@ -30,6 +32,7 @@ const Cards = styled.ul`
 `
 
 const Genre = styled.h1`
+  color: red;
 `
 
 const Row = styled.div`
